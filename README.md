@@ -119,10 +119,8 @@ The bot will now run continuously, fetching news, analyzing it, and sending Tele
 
 ```
 trading_bot/
-├── .env                  # Stores sensitive API keys and tokens (ignored by Git)
-├── .gitignore            # Specifies files and directories to ignore in Git
+├── .env                  # Stores sensitive API keys and tokens
 ├── requirements.txt      # Lists all Python dependencies
-├── myenv/                # Python virtual environment
 ├── processed_articles.txt# Stores IDs of processed articles to prevent duplicates
 ├── trading_bot.log       # Log file for bot activity
 ├── config/
@@ -139,9 +137,3 @@ trading_bot/
 *   **Backtesting Module:** Allow historical news data to be replayed to test trading strategies.
 *   **Web Interface:** A simple dashboard to monitor bot activity and signals.
 *   **Dockerization:** Containerize the application for easier deployment.
-
-## Contributing
-
-Contributions are welcome! Please feel free to open issues or submit pull requests.
-
-
