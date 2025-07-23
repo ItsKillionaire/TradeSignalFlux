@@ -1,0 +1,8 @@
+certifi==2025.7.14
+charset-normalizer==3.4.2
+idna==3.10
+python-dotenv==1.1.1
+PyYAML==6.0.2
+requests==2.32.4
+tenacity==9.1.2
+urllib3==2.5.0

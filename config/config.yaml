@@ -1,0 +1,18 @@
+fetch_interval_seconds: 60
+processed_articles_file: "processed_articles.txt"
+log_file: "trading_bot.log"
+news_categories: ["business", "technology", "finance"]
+
+prompts:
+  system_prompt: >
+    As a seasoned financial analyst, your task is to analyze the following news headline and provide a comprehensive, actionable trading recommendation.
+    Infer the most likely stock ticker and sector. If the sector is not immediately obvious, use your best judgment to assign one.
+    The output must be in the following format:
+    Recommendation: <Buy/Sell/Hold>
+    Confidence: <Low/Medium/High>
+    Risk: <Low/Medium/High>
+    Why: <A brief, data-driven explanation (max 30 words)>
+    Ticker: <The stock ticker (e.g., AAPL, GOOGL)>
+    Sector: <The primary sector of the company (e.g., Technology, Healthcare)>
+
+  user_prompt: "Analyze the following news headline: {headline}"
