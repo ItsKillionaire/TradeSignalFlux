@@ -46,7 +46,7 @@ All sensitive information and core bot settings are managed through two files: `
 
 ### `.env` File (Sensitive Information)
 
-Create a file named `.env` in the root directory of the project and populate it with your API keys and Telegram details. **Do NOT commit this file to Git.**
+Create a file named `.env` in the root directory of the project and populate it with your API keys and Telegram details.
 
 ```dotenv
 NEWSAPI_KEY="YOUR_NEWSAPI_KEY"
