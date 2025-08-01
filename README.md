@@ -26,8 +26,7 @@ Before running the bot, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd trading_bot
+    git clone https://github.com/ItsKillionaire/TradeSignalFlux
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -98,10 +97,7 @@ prompts:
 
 ## Usage
 
-1.  **Navigate to the project root directory:**
-    ```bash
-    cd /path/to/your/trading_bot
-    ```
+1.  **Navigate to the project root directory.**
 
 2.  **Activate your virtual environment:**
     ```bash
@@ -118,7 +114,7 @@ The bot will now run continuously, fetching news, analyzing it, and sending Tele
 ## Project Structure
 
 ```
-trading_bot/
+TradeSignalFlux/
 ├── .env                  # Stores sensitive API keys and tokens
 ├── requirements.txt      # Lists all Python dependencies
 ├── processed_articles.txt# Stores IDs of processed articles to prevent duplicates
